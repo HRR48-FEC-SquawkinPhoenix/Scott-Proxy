@@ -3,6 +3,7 @@ const parser = require('body-parser');
 const cors = require('cors');
 const app = express();
 const port = 3000;
+const component = require('./template.js');
 
 
 app.use(cors())
@@ -11,8 +12,8 @@ app.use(parser.urlencoded({ extended: true}));
 app.use(express.static(__dirname + '/../public'));
 
 
-app.get('/', function(req, res) {  
-  res.send('hello');  
+app.get('/:id', function(req, res) {  
+  res.send(component);  
 })
 
 

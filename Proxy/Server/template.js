@@ -1,13 +1,12 @@
-<!DOCTYPE html>
+const component =
+
+`<!DOCTYPE html>
 <html lang='en'>
 <head>    
   <link rel="stylesheet" href="styles.css"/>
   <link rel="stylesheet" href='https://reviewsimages.s3-us-west-1.amazonaws.com/output.css'/>
   <script src="https://kit.fontawesome.com/d236a51708.js"></script>
-
-  <!-- <link rel="stylesheet" href="http://localhost:3001/style.css"/>
-  <link rel="stylesheet" href="http://localhost:3002/style.css" />
-  <link rel="stylesheet" href="http://localhost:3004/style.css" />   -->
+  
   
 </head>
 
@@ -24,11 +23,10 @@
     </div>
   </div>  
     <script type="text/javascript" src='https://reviewsimages.s3-us-west-1.amazonaws.com/built.js'></script>
-    <!-- <script type='text/javascript' src='http://localhost:3001/bundle.js'></script>
-    <script type='text/javascript' src='http://localhost:3002/bundle.js'></script>
-    <script type='text/javascript' src='http://localhost:3003/bundle.js'></script>
-    <script type='text/javascript' src='http://localhost:3004/bundle.js'></script>  -->
     <img class="footerImg" src='https://reviewsimages.s3-us-west-1.amazonaws.com/footer.png'/>
 </body>
 
 </html>
+`
+
+module.exports = component
