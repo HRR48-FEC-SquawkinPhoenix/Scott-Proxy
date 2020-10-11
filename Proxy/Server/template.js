@@ -22,7 +22,10 @@ const component =
       <div id='seller'></div>
     </div>
   </div>  
-    <script type="text/javascript" src='https://reviewsimages.s3-us-west-1.amazonaws.com/built.js'></script>
+  <script type="text/javascript" src='http://ec2-13-57-216-206.us-west-1.compute.amazonaws.com:3001/'></script>
+  <script type="text/javascript" src='http://ec2-54-215-230-226.us-west-1.compute.amazonaws.com:3002/'></script>
+  <script type="text/javascript" src='http://ec2-13-56-159-252.us-west-1.compute.amazonaws.com:3003/'></script>
+  <script type="text/javascript" src="http://ec2-54-215-167-3.us-west-1.compute.amazonaws.com:3004/"></script>
     <img class="footerImg" src='https://reviewsimages.s3-us-west-1.amazonaws.com/footer.png'/>
 </body>
 
